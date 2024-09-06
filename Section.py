@@ -1,10 +1,14 @@
 import openal
 
+from Audio import *
+
 class Section:
-    def __init__(self, id, text, options):
+    def __init__(self, id, text, options, ambient, sfx):
         self.id = id
         self.text = text
         self.options = options
+        self.ambient = ambient
+        self.sfx = sfx
     def play(self):
         print(self.text)
         if len(self.options) == 0:
