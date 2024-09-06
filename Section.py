@@ -1,7 +1,7 @@
 import openal
 
 from Audio import *
-
+# Class to handle game scenes
 class Section:
     def __init__(self, id, text, options, ambient, sfx):
         self.id = id

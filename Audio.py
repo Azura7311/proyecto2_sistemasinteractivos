@@ -1,5 +1,5 @@
 from openal import *
-class Audio:
+class Audio: # Class to handle audio settings
     def __init__(self, path, volume = 0.25, position = [0, 0, 0], velocity = [0, 0, 0]):
         self.path = path
         self.position = position
